@@ -1,9 +1,7 @@
-import os
 from pyspark.sql.types import StructType, StringType
 from pyspark.sql import *
 from pyspark.sql.functions import col, from_json, explode, substring
 import findspark
-import os
 from pyspark.sql.types import *
 findspark.init()
 import logging

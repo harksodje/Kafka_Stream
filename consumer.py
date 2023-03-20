@@ -9,9 +9,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 try:
-    # consumer1 = KafkaConsumer(
-    #     'Politics', group_id='group1', value_deserializer = lambda x : loads(x.decode('utf-8'))
-    #     )
     consumer1 = KafkaConsumer(
         'Politics', bootstrap_servers='35.175.217.207', group_id='my-group', value_deserializer = lambda x : loads(x.decode('utf-8'))
         )

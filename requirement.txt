@@ -1,0 +1,6 @@
+kafka-python
+dotenv
+pyspark
+findspark
+json
+tweepy
